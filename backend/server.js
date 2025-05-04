@@ -1,9 +1,17 @@
+const bodyParser = require('body-parser');
+const adminRoutes = require('./adminRoutes');
+
+
+
 const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
+
+app.use(bodyParser.json());
+app.use('/admin', adminRoutes);
 
 // 允許跨來源請求（CORS）
 app.use((req, res, next) => {

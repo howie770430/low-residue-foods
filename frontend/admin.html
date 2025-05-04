@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <title>後台管理</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f4f4f4; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; }
+    .food-item { border: 1px solid #ccc; padding: 10px; margin-top: 10px; background: white; }
+  </style>
+</head>
+<body>
+  <h2>後台登入</h2>
+  <input id="username" placeholder="帳號" />
+  <input id="password" placeholder="密碼" type="password" />
+  <button onclick="login()">登入</button>
+
+  <div id="adminPanel" style="display:none;">
+    <h3>新增食物</h3>
+    <input id="name" placeholder="食物名稱" />
+    <input id="note" placeholder="備註" />
+    <select id="allowed">
+      <option value="true">可食用</option>
+      <option value="false">不建議</option>
+    </select>
+    <button onclick="addFood()">新增</button>
+
+    <h3>目前資料</h3>
+    <div id="foodList"></div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
