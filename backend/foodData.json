@@ -1,6 +1,17 @@
 [
-    { "name": "白飯", "allowed": true, "note": "低渣食物，適合食用" },
-    { "name": "香蕉", "allowed": true, "note": "熟透的香蕉為低渣食物" },
-    { "name": "地瓜", "allowed": false, "note": "高纖維，應避免食用" },
-    { "name": "蘋果", "allowed": false, "note": "含有果皮與纖維，應避免" }
-  ]
+  {
+    "name": "香蕉",
+    "allowed": true,
+    "note": "熟透的香蕉為低渣食物"
+  },
+  {
+    "name": "地瓜",
+    "allowed": false,
+    "note": "高纖維，應避免食用"
+  },
+  {
+    "name": "蘋果",
+    "allowed": false,
+    "note": "含有果皮與纖維，應避免"
+  }
+]

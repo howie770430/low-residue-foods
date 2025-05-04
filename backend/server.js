@@ -10,14 +10,18 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3000;
 
-app.use(bodyParser.json());
-app.use('/admin', adminRoutes);
 
 // 允許跨來源請求（CORS）
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
+
+app.use(bodyParser.json());
+app.use('/admin', adminRoutes);
+  
 
 // 查詢食物是否為低渣食物
 app.get('/api/search', (req, res) => {
