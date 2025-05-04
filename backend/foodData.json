@@ -13,5 +13,20 @@
     "name": "蘋果",
     "allowed": false,
     "note": "含有果皮與纖維，應避免"
+  },
+  {
+    "name": "白飯",
+    "allowed": true,
+    "note": "可以食用"
+  },
+  {
+    "name": "麵條",
+    "allowed": true,
+    "note": "應吃沒調味的麵條"
+  },
+  {
+    "name": "測試",
+    "allowed": true,
+    "note": "等等刪除"
   }
 ]

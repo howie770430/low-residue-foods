@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 3000;
 
 // 允許跨來源請求（CORS）
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header('Access-Control-Allow-Origin', '*'); // 允許所有來源
+  res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS'); // 允許的方法
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // ❗ 允許前端傳送 Authorization header
   next();
 });
 
