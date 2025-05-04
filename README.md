@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 低渣食物查詢網站
 
 這是一個用於查詢食物是否為低渣食物的網站。使用者可以輸入食物名稱，系統將回傳該食物是否適合食用的建議。
@@ -14,3 +15,7 @@
 2. 在 `backend` 資料夾中執行 `npm install express`
 3. 執行 `node server.js` 啟動後端伺服器
 4. 使用瀏覽器開啟 `frontend/index.html`，即可使用查詢功能
+=======
+# low-residue-foods
+低渣飲食查詢網站
+>>>>>>> b37f86a816b6c8a57c91be0701cc9bd6c91ed368
