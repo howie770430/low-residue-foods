@@ -1,32 +1,171 @@
-[
   {
-    "name": "香蕉",
+    "name": "白米飯",
     "allowed": true,
-    "note": "熟透的香蕉為低渣食物"
+    "note": "精緻穀類，易消化"
   },
   {
-    "name": "地瓜",
-    "allowed": false,
-    "note": "高纖維，應避免食用"
-  },
-  {
-    "name": "蘋果",
-    "allowed": false,
-    "note": "含有果皮與纖維，應避免"
-  },
-  {
-    "name": "白飯",
+    "name": "稀飯",
     "allowed": true,
-    "note": "可以食用"
+    "note": "適合腸胃不適時食用"
   },
   {
-    "name": "麵條",
+    "name": "白麵條",
     "allowed": true,
-    "note": "應吃沒調味的麵條"
+    "note": "低纖維，易於消化"
   },
   {
-    "name": "測試",
+    "name": "白吐司（去邊）",
     "allowed": true,
-    "note": "等等刪除"
+    "note": "去除麵包邊緣以減少纖維"
+  },
+  {
+    "name": "白饅頭",
+    "allowed": true,
+    "note": "不含全麥成分，適合低渣飲食"
+  },
+  {
+    "name": "冬粉",
+    "allowed": true,
+    "note": "由精緻澱粉製成，低纖維"
+  },
+  {
+    "name": "米粉",
+    "allowed": true,
+    "note": "易於消化的主食選擇"
+  },
+  {
+    "name": "餃子皮",
+    "allowed": true,
+    "note": "不含全麥，適合低渣飲食"
+  },
+  {
+    "name": "馬鈴薯（去皮）",
+    "allowed": true,
+    "note": "去皮後纖維含量降低，適合食用"
+  },
+  {
+    "name": "嫩豆腐",
+    "allowed": true,
+    "note": "質地柔軟，易於消化"
+  },
+  {
+    "name": "板豆腐",
+    "allowed": true,
+    "note": "加工精緻，適合低渣飲食"
+  },
+  {
+    "name": "豆漿（無渣）",
+    "allowed": true,
+    "note": "去除豆渣後，適合飲用"
+  },
+  {
+    "name": "豆花",
+    "allowed": true,
+    "note": "質地細緻，易於消化"
+  },
+  {
+    "name": "豆干",
+    "allowed": true,
+    "note": "經過加工，纖維含量低"
+  },
+  {
+    "name": "豆包",
+    "allowed": true,
+    "note": "加工製品，適合低渣飲食"
+  },
+  {
+    "name": "雞胸肉（去皮）",
+    "allowed": true,
+    "note": "去皮後脂肪含量降低，易於消化"
+  },
+  {
+    "name": "雞腿肉（去皮）",
+    "allowed": true,
+    "note": "去皮後適合低渣飲食"
+  },
+  {
+    "name": "豬里肌",
+    "allowed": true,
+    "note": "瘦肉部分，纖維含量低"
+  },
+  {
+    "name": "魚肉（清蒸）",
+    "allowed": true,
+    "note": "烹調方式健康，易於消化"
+  },
+  {
+    "name": "蒸蛋",
+    "allowed": true,
+    "note": "質地柔軟，易於消化"
+  },
+  {
+    "name": "水煮蛋",
+    "allowed": true,
+    "note": "烹調方式簡單，適合食用"
+  },
+  {
+    "name": "蛋花湯",
+    "allowed": true,
+    "note": "液體形式，易於消化"
+  },
+  {
+    "name": "冬瓜",
+    "allowed": true,
+    "note": "纖維含量低，適合食用"
+  },
+  {
+    "name": "小黃瓜（去皮去籽）",
+    "allowed": true,
+    "note": "處理後纖維含量低"
+  },
+  {
+    "name": "胡瓜（去皮去籽）",
+    "allowed": true,
+    "note": "易於消化"
+  },
+  {
+    "name": "紅蘿蔔（煮軟）",
+    "allowed": true,
+    "note": "烹煮至軟化，纖維含量降低"
+  },
+  {
+    "name": "香蕉（熟）",
+    "allowed": true,
+    "note": "熟透的香蕉纖維較少，適合食用"
+  },
+  {
+    "name": "木瓜",
+    "allowed": true,
+    "note": "質地柔軟，易於消化"
+  },
+  {
+    "name": "水蜜桃（去皮）",
+    "allowed": true,
+    "note": "去皮後纖維含量降低"
+  },
+  {
+    "name": "蘋果（去皮）",
+    "allowed": true,
+    "note": "去皮後纖維含量降低"
+  },
+  {
+    "name": "哈密瓜",
+    "allowed": true,
+    "note": "質地柔軟，易於消化"
+  },
+  {
+    "name": "果凍（不含蒟蒻）",
+    "allowed": true,
+    "note": "避免含有難以消化的成分"
+  },
+  {
+    "name": "米餅",
+    "allowed": true,
+    "note": "精緻澱粉製成，適合低渣飲食"
+  },
+  {
+    "name": "清蛋糕",
+    "allowed": true,
+    "note": "不含堅果或果乾，適合食用"
   }
 ]
