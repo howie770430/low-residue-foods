@@ -3,7 +3,7 @@ const crypto = require('crypto');
 // 設定帳密
 const validUser = {
     username: 'howie770430',
-    password: 'iris1211',
+    password: 'test1234',
   };
   
 // 簡單憑證儲存區（記憶體中）
